@@ -1,5 +1,5 @@
 *
-!*.cc
-!*.c
-!*.cpp
-!*.h
+!chap?
+!chap?/*.cpp
+!chap?/*.cc
+!chap?/*.h
