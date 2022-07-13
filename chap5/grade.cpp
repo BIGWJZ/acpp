@@ -17,3 +17,6 @@ double grade(const Student_info& stu){
     return grade(stu.midterm, stu.final, stu.homework);
 }
 
+bool fgrade(const Student_info& s){
+    return grade(s) < 60;
+}
